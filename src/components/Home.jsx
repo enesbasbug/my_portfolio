@@ -21,7 +21,9 @@
                     </Link>  
                 </div>
             </div>
-            <div><img src={myImage} alt="profile picture" className='rounded-2xl mx-auto w-2/3 md:w-100'/></div>
+            <div>
+              <img src={myImage} alt="profile picture" className='rounded-2xl mx-auto w-2/3 md:w-100'/>
+            </div>
         </div>
      </div>
    )
