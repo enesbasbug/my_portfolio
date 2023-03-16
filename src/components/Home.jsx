@@ -1,5 +1,5 @@
  import React from 'react';
- import myImage from '../assets/image.png';
+ import my_imgg from '../assets/image.png';
  import {HiOutlineArrowRight} from 'react-icons/hi';
  import {Link} from 'react-scroll'
 
@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div>
-              <img src={myImage} alt="profile picture" className='rounded-2xl mx-auto w-2/3 md:w-100'/>
+              <img src={my_imgg} alt="profile_pic" className='rounded-2xl mx-auto w-2/3 md:w-100'/>
             </div>
         </div>
      </div>
