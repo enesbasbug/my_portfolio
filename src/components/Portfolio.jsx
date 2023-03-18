@@ -21,7 +21,7 @@ const Portfolio = () => {
         {
             id:2,
             src:estimatedBP,
-            title: "A website estimates the one's blood pressure from rPPG value using Deep Learning Model by contactless webcam",
+            title: "A website estimates the one's blood pressure using DL Model by contactless webcam",
             tech: "Python, Flask, OpenCV, Keras, Tensorflow, HTML, CSS, JavaScript ",
             href: "https://github.com/enesbasbug/Blood_Pressure_Estimation_with_Webcam_using_Deep_Learning",
             git_href: "https://github.com/enesbasbug/Blood_Pressure_Estimation_with_Webcam_using_Deep_Learning",
@@ -82,12 +82,13 @@ const Portfolio = () => {
                             <p className='py-3 px-3'>{title}</p>
                             <p className='py-3 px-3 border-r-4 font-semibold'>{tech}</p>
                             <div className='flex items-center justify-center'>
-                                <button className='w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105 font-bold'>
+
+                                {/* <button className='w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105 font-bold'>
                                     <a href={href} target="_blank" rel="noreferrer"> Demo </a>
-                                </button>    
+                                </button>     */}
                                 <button className='w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105 font-bold'>
                                     <a href={git_href} target="_blank" rel="noreferrer"> Code </a>
-                                </button>  
+                                </button>
                             </div>
                         </div>
                     ))}  
